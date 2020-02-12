@@ -1,0 +1,20 @@
+.footerIcon{
+	float: left;
+    line-height: 2;
+    font-size: 20px;
+}
+.iconed-text{
+	float: left;
+	margin-left: 10px;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 450px) {
+	.footer-heading {
+	    font-size: 50px;
+	}
+	.iconed-text{
+		font-size: 35px;
+	}
+	.footerIcon {
+	    font-size: 40px;
+	}
+}

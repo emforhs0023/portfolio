@@ -1,0 +1,54 @@
+.personality{
+	margin-top: 27px;
+	list-style: none;
+}
+.left{
+	width: 50%;
+	float: left;
+}
+.frontEnd{
+	float: left;	
+	width: 100%;
+}
+.profileData{
+	font-size: 17px;
+	font-weight: 600;
+}
+.right{
+	width: 48%;
+	margin-left: 10px;
+	float: left;
+}
+.skill{
+	clear: both;
+	width: 100%;
+	overflow: auto;
+	margin: 20px 0;
+	background-color: rgba(155, 155, 155, 0.5);
+	border-radius: 5px;
+	
+}
+.skill_label {
+/*    text-align: center;
+    display: inline-block;
+    width: 114px;
+    height: 116px;
+    border-radius: 30px 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 2rem;
+    box-shadow: 0 3px 6px rgba(0,0,0,.2), 0 3px 6px rgba(0,0,0,.2);*/
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 450px) {
+    .frontEnd {
+	    float: left;
+	    width: 100%;
+	    font-size: 32px;
+	}
+	.profileData{
+		font-size: 58px;
+		font-weight: 600;
+	}
+}
